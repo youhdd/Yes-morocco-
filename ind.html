@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Yes Morocco!! - مدونتك المصدر لكل ما يخص المغرب.">
+    <title>Yes Morocco!!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- قسم الهيدر -->
+    <header>
+        <nav>
+            <h1>Yes Morocco!!</h1>
+            <ul>
+                <li><a href="#home">الرئيسية</a></li>
+                <li><a href="#about">نبذة عنا</a></li>
+                <li><a href="#news">آخر الأخبار</a></li>
+                <li><a href="#gallery">المعرض</a></li>
+                <li><a href="#contact">اتصل بنا</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- القسم الرئيسي -->
+    <main>
+        <section id="home">
+            <h2>مرحبًا بك في Yes Morocco!!</h2>
+            <p>منصة شاملة لكل ما يخص المغرب. من الأخبار والثقافة إلى أحدث الاتجاهات، نغطي كل شيء.</p>
+        </section>
+
+        <section id="news">
+            <h2>آخر الأخبار</h2>
+            <div class="news-card">
+                <h3>المطبخ المغربي على الساحة العالمية</h3>
+                <p>اكتشف كيف يحقق المطبخ المغربي شهرة دولية...</p>
+            </div>
+        </section>
+
+        <section id="gallery">
+            <h2>المعرض</h2>
+            <div class="gallery-container">
+                <img src="morocco1.jpg" alt="معمار مغربي تقليدي">
+                <img src="morocco2.jpg" alt="أسواق مغربية">
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>اتصل بنا</h2>
+            <form action="submit_form.php" method="post">
+                <input type="text" name="name" placeholder="اسمك" required>
+                <input type="email" name="email" placeholder="بريدك الإلكتروني" required>
+                <textarea name="message" placeholder="رسالتك" required></textarea>
+                <button type="submit">إرسال الرسالة</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- قسم الفوتر -->
+    <footer>
+        <p>&copy; 2024 Yes Morocco!!</p>
+    </footer>
+</body>
+</html>
